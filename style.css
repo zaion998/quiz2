@@ -9,7 +9,7 @@ html{
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background-color: rgb(37,38,39);
+  background-image: url(background.jpg);
 color:white;
 }
 section{
@@ -24,8 +24,13 @@ section{
   width: 90%;
   max-width: 500px;
   margin: 0 auto;
-  background-color: rgb(51,55,59);
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+  border-radius: 8px;
+  padding: 3rem;
+  display: flex;
   flex-direction: column;
+  
 }
 .container p{
   font-size: 2rem;
@@ -35,13 +40,13 @@ section{
 }
 button{
   margin-top: 4rem;
-  width: fir-content;
+  width: fit-content;
   padding: 2rem;
   font-size: 2rem;
   background-color: rgb(25,28,29);
   color: white;
   border: none;
   border-radius: 4px;
-  cursor:pointer;
+  cursor: pointer;
   align-self: flex-end;
 }
